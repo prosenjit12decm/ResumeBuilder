@@ -1,0 +1,43 @@
+.maindiv{
+    border: 1px solid lightgray;
+    width: 40%;
+    height: 530px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+}
+
+.childfirst {
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    margin: 0;
+}
+
+.childsecond{
+    /* background-color: red; */
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid blue; */
+}
+.childsecond input{
+    width: 100%;
+}
+
+.maindiv button{
+    background-color: darkolivegreen;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+}

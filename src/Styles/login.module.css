@@ -1,0 +1,19 @@
+.loginmain{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.loginfnt{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+.loginfnt input, label,button{
+    height: 30px;
+    width: 100%;
+}

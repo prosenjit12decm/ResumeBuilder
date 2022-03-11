@@ -1,0 +1,49 @@
+.headdiv{
+    border: 1px solid grey;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+}
+
+.headdiv h2{
+    margin: 0;
+}
+.headdiv h2,p{
+    text-align: center;  
+
+}
+
+.headdiv input{
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.contentdiv{
+    margin-top: 40px;
+    padding-right: 50px;
+    /* background-color: red; */
+}
+
+
+.headdiv button{
+    margin: 80px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(202, 202, 133);
+    color: #fff;
+    font-weight: bolder;
+}

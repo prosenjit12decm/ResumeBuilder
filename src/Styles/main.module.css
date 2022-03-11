@@ -1,0 +1,255 @@
+/* starting content part */
+
+.container{
+    font-family: "Raleway",Arial,"Times New Roman",Times,sans-serif;
+    display: flex;
+    justify-content: center;    
+}
+
+.content{
+    height: 750px;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    /* background-color: lightgray; */
+    border: 1px solid grey;
+    border-radius: 50px;
+    box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+}
+
+.heading p{
+    margin-top: 0;
+    opacity: .7;
+}
+.heading h2{
+    margin: 0;
+}
+.heading{
+    text-align: center;
+
+}
+
+.tag{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-top: 10px;
+}
+.tag label{
+    margin-top: 15px;
+    opacity: .8;
+}
+
+.tag .textbox{
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.tag span .checkingbox{
+    margin-left: 30px;
+}
+
+ .tag button{
+    height: 60px;
+    width: 500px;
+    margin: 50px;
+    margin-bottom: 0;
+    background-color: #8cc53e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+.tag p{
+    text-align: center;
+}
+.tag Link{
+    text-decoration: none;
+}
+
+.tag span{
+    opacity: .7;
+}
+
+
+
+
+
+
+/* started home.js */
+
+.MainContainer{
+    /* background-image: url('/images/images/homeback.jfif'); */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: lightgrey; */
+}
+
+.MainContainer .startdiv{
+    padding: 50px;
+    width: 40%;
+    margin-left: 100px;
+}
+
+ .btn{
+    background-color:#8cc53e;
+    color :white;
+    height:70px;
+    width:400px;
+    font-weight:bolder;
+    border: none;
+    border-radius: 50px;
+}
+.startdiv h1{
+    font-size: 40px;
+}
+.startdiv p{
+    width: 500px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+/* started getstart.js */
+.headdiv{
+    height: 100%;
+    width: 100%;
+}
+
+.headdiv .cont{
+    width: 30%;
+    height: 80%;
+    margin: 60px;
+    padding: 50px;
+}
+
+.cont >p{
+    font-size: 22px;
+    font-weight: bolder;
+    opacity: .7;
+    margin: 5px;
+    color:aqua;
+}
+
+.cont h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.cont div{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.cont button{
+    background-color: #8cc53e;
+    width: 100%;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px ;
+}
+
+.cont .lastline{
+    font-size: 17px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Starting how to start */
+
+
+.startmain{
+    height: 400px;
+    width: 700px;
+    border: 1px solid lightgrey;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 7px 29px 0px rgba(0,0,0,0.75);
+}
+.startmain .heading{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.startbox{
+    display: flex;
+}
+.startbox h5{
+    margin: 10px;
+}
+.startbox p{
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.startleftpart{
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.startrightpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+.headerdiv{
+    background: #8cc53e;
+    color: white;
+    height: 50px;
+    width:270px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+
+.startbox .lastbtn{
+    background: #8cc;
+    color: white;
+    height: 50px;
+    width:270px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,18 @@
+.signupback{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupmain{
+    border: 1px solid black;
+    padding: 30px;
+    width: 400px;
+    height: 210px;
+}
+.signupmain label,input,button{
+    height: 40px;
+    width: 100%;
+}

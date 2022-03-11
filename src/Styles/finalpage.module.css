@@ -1,0 +1,352 @@
+
+.mainsection{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.docsection div{
+    padding: 2px;
+}
+.docsection{
+
+    background-color: #fff;
+    margin: 100px;
+    width: 65%;
+    border: 1px solid black;
+    height: 900px;
+    padding: 60px;
+}
+
+/* .docsection .pencil{
+    width: 30px;
+    background-color: red;
+    color: red;
+} */
+
+.header{
+    /* background-color: red; */
+    height: 200px;
+
+}
+.headimg{
+    /* background-color:black; */
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+}
+.headname h2{
+    font-size: 40px;
+}
+.headname{
+    margin: 10px;
+}
+.headaddress{
+    margin: 10px;
+    /* background-color: blue; */
+    width: 90%;
+    /* font-size: 14px; */
+    display: flex;
+}
+
+.summary{
+    height: 100px;
+}
+.summary .summaryhead{
+    font-weight: bolder;
+    font-size: 17px;
+    /* color: blue; */
+}
+
+
+.skill{
+    height: 150px;
+}
+.skill .skillhead{
+    /* margin: 10px; */
+    font-size: 17px;
+    font-weight: bolder;
+    /* padding: 0; */
+}
+.skill .skilldetail  div{
+    width: 50%;
+}
+.skill .skilldetail {
+    display: flex;
+    font-size: 18px;
+}
+
+.experience{
+    height: 200px;
+}
+
+.experience .exphead{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.experience .jobtitle{
+    display: flex;
+    padding: 5px;
+}
+
+.experience .jobtitle .jobdate{
+    margin-left: auto;
+    padding: 5px;
+}
+
+
+
+
+
+
+.education{
+    height: 150px;
+}
+.education .eduhead{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+
+.docsection button{
+    width: 80%;
+    height: 70px;
+    border-radius: 10px;
+    border:  none;
+    margin: 50px;
+}
+.docsection button:hover{
+    border: 5px dotted;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: lightcyan;
+}
+
+
+.header:hover{
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+.summary:hover{
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+.skill:hover{
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+.education:hover{
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+.experience:hover{
+    box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Starting edit section */
+
+.editsection{
+    margin-left: auto;
+    border: 1px solid black;
+    width: 35%;
+    background-color: rgb(207, 204, 204);
+    padding: 30px;
+    position: relative
+}
+
+.editheader{
+    border-bottom: 1px solid gray;
+}
+.editheader h1{
+    margin-bottom: 0;
+    text-align: center;
+}
+.editheader p{
+    text-align: center;
+}
+.editheader  button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.editcontent{
+    border-bottom: 1px solid grey;
+}
+
+.editcontent p{
+    text-align: start;
+    margin-top: 0;
+}
+
+.editcontent .editcontentbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.editcontent .editcontentbtn button{
+    height: 50px;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    /* padding: 15px; */
+}
+
+.editcontentfont{
+    display: flex;
+}
+.editcontentfont .cntfnt{
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+}
+.editcontentfont .cntfnt select{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.colorbtn {
+    width: 100%;
+    /* background-color: royalblue; */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.colorbtn button{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: none;
+}
+
+
+.editfooter{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.editfooter button{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border: none;
+    background-color: #03acbb;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* starting sidebar component */
+
+.sidebartemplate{
+    position:absolute;
+    background-color: rgb(124, 93, 51);
+    /* display: flex ; */
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.row1{
+    background-color: #03acbb;
+}
+
+.row2{
+    background-color: #373d3d;
+}
+
+/* .template1{
+    height: 10px;
+    width: 50px;
+    background-color: #fff;
+} */
+
+
+
+@keyframes open {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
